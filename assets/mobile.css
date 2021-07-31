@@ -8,11 +8,16 @@ body{
 
 
 @media only screen and (max-width : 720px) {
-    #bg{
+    #bgm{
         position: fixed;
         top: 0;
         left: 0;
         z-index: 9;
+        height: 100vh;
+    }
+
+    #bg{
+        display: none;
     }
 
     /* topbar */
@@ -78,6 +83,7 @@ body{
     .l-cntn{
         position: relative;
         z-index: 999;
+        height: 98vh;
         width: 80vw;
         left: 8vw;
         top: 90px;
@@ -89,7 +95,7 @@ body{
         color: white;
         background-color: #bf1b80;
         padding: 10px 20px;
-        top: -20px;
+        top: 20px;
         display: block;
         margin-bottom: 20px;
     }
@@ -102,7 +108,7 @@ body{
     .l-cntn h1{
         font-size: 25px;
         position: relative;
-        top: -60px;
+        top: 0px;
     }
 
     .l-cntn img{
@@ -143,14 +149,15 @@ body{
     .buy-on{
         position: relative;
         z-index: 999;
-        width: 90vw;
-        left: 4vw;
-        top: 150px;
+        width: 80vw;
+        left: 8vw;
+        top: 0px;
     }
 
     .buy-on a{
         display: block;
         margin-bottom: 20px;
+        text-align: left;
     }
 
     .buy-on img{
@@ -162,7 +169,7 @@ body{
         z-index: 999;
         width: 90vw;
         left: 4vw;
-        top: 250px;
+        top: 50px;
         margin-bottom: 100px;
     }
 
