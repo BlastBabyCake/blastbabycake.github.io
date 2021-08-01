@@ -54,7 +54,22 @@ var x = setInterval(function() {
   // }
 }, 1000);
 
-
+var circle = document.querySelectorAll('.coin')
+circle.forEach( (e, i) => {
+	
+	e.addEventListener('mouseenter', function(){
+		this.style.transform = 'translateY(150px)'
+		this.style.transition = 'all 1s ease'
+		this.style.opacity = '0.5'
+	})
+ 
+	e.addEventListener('mouseleave', function(){
+		this.style.transform = 'translateY(0)'
+		this.style.transition = 'all 1s ease'
+		this.style.opacity = '1'
+	})
+	
+})
 
 var slideIndex = 0;
 showSlides();
