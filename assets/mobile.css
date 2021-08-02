@@ -253,4 +253,10 @@ body{
         border: 1px solid white;
     }
 
+    .ftimg img{
+        width: 60vw;
+        position: relative;
+        top: -20px
+    }
+
 }
